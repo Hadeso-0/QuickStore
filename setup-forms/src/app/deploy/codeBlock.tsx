@@ -3,7 +3,7 @@
 import { useFormState } from "@/components/formContext";
 
 export default function CodeBlock() {
-    const { resetForm, formData } = useFormState();
+    const { formData } = useFormState();
     
     return (
         <>

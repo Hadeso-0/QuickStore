@@ -28,7 +28,7 @@ const CopyClipboard =({content} : {
                 })
                 navigator.clipboard.writeText(content)
             }}
-            className="rounded-md m-0 bg-slate-900/10 ring-1 ring-inset p-2 ring-white/10 flex flex-row items-center justify-center font-medium text-slate-50">
+            className="rounded-md m-0 bg-slate-900/70 ring-1 ring-inset p-2 ring-white/10 flex flex-row items-center justify-center font-medium text-slate-50">
             <PiClipboardDuotone className="text-lg pointer-events-none" />
         </button>
     )
@@ -40,13 +40,11 @@ export default function Deploy() {
     const { resetForm, formData } = useFormState();
     const toString = (obj : Object) => Object.entries(obj).map(([k, v]) => `${k}: ${v}`).join('\n');
     
-    console.log(ref);
-    console.log(formData);
     //@ts-ignore
-    // if(Object.entries(formData).length === 0 || ref != 'store' || ref != 'warehouse' ){
-    //     console.log("redirecting")
-    //     redirect("/");
-    // }
+    if(!(ref === 'store' || ref === 'warehouse') || Object.entries(formData).length === 0){
+        console.log("redirecting")
+        redirect("/");
+    }
 
     return (
       <div className="bg-gray-600 h-screen overflow-hidden">
@@ -92,7 +90,11 @@ export default function Deploy() {
                 Launch My Site → Create Git Repository → Configure Project → Required Environment Variable 
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                <Link href="/" className="text-sm font-semibold leading-6 text-white">
+                <Link 
+                  href="/" 
+                  onClick={resetForm}
+                  className="text-sm font-semibold leading-6 text-white"
+                >
                     <span aria-hidden="true">←</span>{" "}Return Home
                 </Link>
                 <a
@@ -110,7 +112,7 @@ export default function Deploy() {
             </div>
             <div className="relative mt-16 h-80 lg:mt-8 w-full">
               <div className="absolute top-10 right-0 w-full flex flex-row justify-end">
-                  <div className="self-end w-14 p-2 z-50">
+                  <div className="self-end w-14 p-2 z-50 bg-slate-900/10 backdrop-blur-md">
                       <CopyClipboard content = {toString(formData)}/>
                   </div>
               </div>
