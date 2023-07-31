@@ -5,7 +5,8 @@ QuickStore is a template codebase for small-scale shop owners to get their produ
 </br>
 </br>
 </p>
-[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="25"/>](https://github.com/user/repository/subscription)
+
+[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" align="center" height="40"/>](https://github.com/user/repository/subscription)
 
 ***
 ## For Devs →
