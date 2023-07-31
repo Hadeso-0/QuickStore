@@ -1,6 +1,5 @@
 "use client";
 
-import type { Metadata } from 'next'
 import Link from "next/link";
 import { PiRocketLaunchDuotone } from "react-icons/pi";
 import CodeBlock from "./codeBlock";
@@ -33,11 +32,6 @@ const CopyClipboard =({content} : {
             <PiClipboardDuotone className="text-lg pointer-events-none" />
         </button>
     )
-}
-
-export const metadata: Metadata = {
-  title: 'Ready to Launch',
-  description: `Let's get it launched`,
 }
 
 export default function Deploy() {
