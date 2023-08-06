@@ -1,29 +1,44 @@
-<h1 align="center" style="text-align:center"> QuickStore </h1>
+<div align="center">
+<!--     <img src="public/favicon.svg" alt="Twitoor Logo"> -->
+    <h1>QuickStore</h1>
+    <a href="https://quick-store-sigma.vercel.app/"><b>quick-store-sigma.vercel.app »</b></a><br><br>
+    <strong>A SaaS service for small-scale shop owners to get their products accessible to a much larger audience in just a few minutes.</strong>
+</div>
+<br><br>
 
-<p align="justified" style="text-align:center">
-QuickStore is a template codebase for small-scale shop owners to get their products accessible to a much larger audience in just few minutes. The shop-owner just needs to sign-up for the various free services that are used in the software and fill-out the form given below. And bammm.. as soon as the person clicks deploy my website button, He gets an admin panel ready to work with. Next he needs to fill out the Store form, to host his/ her store, which he can share with the customers to interact and make orders form. Apart from this, admin system allows users to plug in the API to their custom websites for flexibility in setup.
+## About QuickStore
+
+QuickStore is a template codebase for small-scale shop owners to get their products accessible to a much larger audience in just a few minutes. The shop owner just needs to sign-up for the various free services that are used in the software and fill out the form given below. And bam.. as soon as the person clicks the deploy my website button, He gets an admin panel ready to work with. Next, he needs to fill out the Store form, to host his/ her store, which he can share with the customers to interact and make orders form. Apart from this, the admin system allows users to plug in the API to their custom websites for flexibility in setup.
 </br>
 </br>
-</p>
 
-[<img src="button-launch.png" style="margin-left: 50px" height="50"/>](https://quick-store-sigma.vercel.app/)
+<div align="center">
+    <img src="/Mockup1.png" alt="Mockup">
+</div>
+<br><br>
+<div align="center">
+   <a href="https://quick-store-sigma.vercel.app/">
+      <img src="button-launch.png" height="50" alt="Launch"/>
+   </a>   
+</div>
 
 </br>
 
-***
-## For Devs →
 ## Tech-Stack
 
 1. [NextJs](https://nextjs.org/)- Enables developers to create full-stack Web applications super-fast and deploy them much faster by optimizing builds.
-2. [MySQL](https://www.mysql.com/)- A relational database organizinng in form of tables which data may be related to each other.
-3. [Prisma](https://www.prisma.io/)- Acts as an Typescript ORM(Object-Relational Mapping), that talks to database and returns the data in typesafe manner.
+2. [MySQL](https://www.mysql.com/)- A relational database organized in the form of tables whose data may be related to each other.
+3. [Prisma](https://www.prisma.io/)- Acts as a Typescript ORM(Object-Relational Mapping), that talks to the database and returns the data in a typesafe manner.
 4. [PlanetScale](https://planetscale.com/)- To host MySQL database online.
 5. [Stripe](https://stripe.com/en-in)- To enable payments.
 
-## Live Demo
 
-- Admin Panel - [WareHouse](https://warehouse-admin.vercel.app/)
-- Client Application - [WebStore](https://client-store.vercel.app/)
+<div align="center">
+    <h2>Live Demo</h2>
+    <a href="https://warehouse-admin.vercel.app/"><b>warehouse-admin.vercel.app</b></a> •
+    <a href="https://client-store.vercel.app/"><b>client-store.vercel.app</b></a><br><br>
+</div>
+<br><br>
 
 ## Setup project on your system
 
