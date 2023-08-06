@@ -11,16 +11,16 @@
 QuickStore is a template codebase for small-scale shop owners to get their products accessible to a much larger audience in just a few minutes. The shop owner just needs to sign-up for the various free services that are used in the software and fill out the form given below. And bam.. as soon as the person clicks the deploy my website button, He gets an admin panel ready to work with. Next, he needs to fill out the Store form, to host his/ her store, which he can share with the customers to interact and make orders form. Apart from this, the admin system allows users to plug in the API to their custom websites for flexibility in setup.
 </br>
 </br>
-
-<div align="center">
-    <img src="/Mockup1.png" alt="Mockup">
-</div>
-<br><br>
 <div align="center">
    <a href="https://quick-store-sigma.vercel.app/">
       <img src="button-launch.png" height="50" alt="Launch"/>
    </a>   
 </div>
+<br><br>
+<div align="center">
+    <img src="/Mockup1.png" alt="Mockup">
+</div>
+
 
 </br>
 
